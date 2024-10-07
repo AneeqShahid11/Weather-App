@@ -1,0 +1,122 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Background with an Image */
+body {
+  background:url('9010621.jpg') no-repeat center center fixed;
+  
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* App Container */
+.app-container {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+/* App Title */
+.app-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Weather Form */
+.weather-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Input Box */
+.weather-input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+  margin-right: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Submit Button */
+.weather-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.weather-button:hover {
+  background-color: #3498db;
+}
+
+/* Weather Info */
+.weather-info {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-top: 20px;
+  backdrop-filter: blur(5px);
+}
+
+/* City Name */
+.weather-city {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Weather Icon */
+.weather-icon {
+  width: 100px;
+  height: 100px;
+}
+
+/* Temperature */
+.weather-temp {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+/* Weather Description */
+.weather-desc {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* Humidity and Wind */
+.weather-humidity,
+.weather-wind {
+  font-size: 1rem;
+}
+
+/* Error Message */
+.error-message {
+  color: #ff4c4c;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
